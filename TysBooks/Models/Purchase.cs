@@ -39,5 +39,8 @@ namespace TysBooks.Models
         public bool Annonymous { get; set; }
 
 
+        [BindNever]
+        public bool PurchaseReceived { get; set; }
+
     }
 }
